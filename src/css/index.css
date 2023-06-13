@@ -23,18 +23,20 @@ body {
   background-color: #08020d;
 }
 
+h1,
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: 60px;
   line-height: 90px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: 38px;
   line-height: 57px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 @media (max-width: 414px) {
