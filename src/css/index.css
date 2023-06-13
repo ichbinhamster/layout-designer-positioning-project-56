@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Roboto, "Segoe UI", sans-serif;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto, "Segoe UI", sans-serif;
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto, "Segoe UI", sans-serif;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+body {
+  font-family: Roboto;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
